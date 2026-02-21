@@ -44,8 +44,11 @@
             transform: scale(1.05);
         }
         audio, video {
-            margin-top: 20px;
-        }
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
         .footer {
             position: fixed;
             bottom: 0;
@@ -79,6 +82,7 @@
         { title: "Blessed Assurance", pdf: "pdf-files/Blessed Assurance chords.jpg", audio: "pdf-files/blessedassurance.mp3", video: "" },
             { title: "Build My Life", pdf: "pdf-files/Build+My+LifeDchords.pdf", audio: "pdf-files/Build my life audio.mp3", video: "" },
             { title: "Grace on Top of Grace", pdf: "pdf-files/Grace-on-Top-of-Grace.pdf", audio: "pdf-files/graceontopofgrace.mp3", video: "pdf-files/Graceontopofgrace(1).mp4" },
+            { title: "How Great Is Our God", pdf: "", audio: "", video: "pdf-files/How_Great_is_our_God_mp4.mp4" },
             
         ];
         const urlParams = new URLSearchParams(window.location.search);
@@ -100,4 +104,5 @@
         };
     </script>
 </body>
+
 </html>
